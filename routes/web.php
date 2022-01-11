@@ -35,6 +35,12 @@ use App\Models\materi3;
 Route::get('/', function () {
     return view('pages.home', ['title' => 'Home | Quiz']);
 });
+Route::get('penjelasanmateri', function () {
+    return view('penjelasanmateri', ['title' => 'Materi | Quiz']);
+});
+Route::get('peraturan', function () {
+    return view('peraturan', ['title' => 'Peraturan | Quiz']);
+});
 
 // Auth Route
 Route::get('/signin', [authController::class, 'signin'])->name('login')->middleware('guest');

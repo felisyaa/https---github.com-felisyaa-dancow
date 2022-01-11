@@ -11,17 +11,18 @@
         <div class="row d-flex justify-content-center">
             <div class="col-12 border border-3 rounded" style="width: 800px; height: 500px;">
                 <span style="font-size: 60px;"><i class="fa fa-globe-asia"></i></span>
-                <p>Pilih Materi</p>
+                <h3>Pilih Materi Quiz</h3>
                 <div class="bg-light rounded d-flex justify-content-evenly" style="width: 90%; height:300px; margin-left: 5%;">
-                    <a href="/materi1" class="mt-5 rounded" style="background-color: rgb(184, 183, 183); height: 180px;">
+                    <a href="/materi1" class="mt-5 rounded" style="background-color: rgb(184, 183, 183); height: 200px;">
                         <img src="/asset/number/1.png" style="width: 130px; height: 130px;"><br><br>
                         <font color="black">Materi 1</font>
+                        <br>
                     </a>
-                    <a href="/materi2" class="mt-5 rounded" style="background-color: rgb(184, 183, 183); height: 180px;">
+                    <a href="/materi2" class="mt-5 rounded" style="background-color: rgb(184, 183, 183); height: 200px;">
                         <img src="/asset/number/2.png" style="width: 130px; height: 130px;"><br><br>
                         <font color="black">Materi 2</font>
                     </a>
-                    <a href="/materi3" class="mt-5 rounded" style="background-color: rgb(184, 183, 183); height: 180px;">
+                    <a href="/materi3" class="mt-5 rounded" style="background-color: rgb(184, 183, 183); height: 200px;">
                         <img src="/asset/number/3.png" style="width: 130px; height: 130px;"><br><br>
                         <font color="black">Materi 3</font>
                     </a>

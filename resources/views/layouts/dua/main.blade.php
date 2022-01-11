@@ -48,7 +48,7 @@
     <div class="float-right d-none d-sm-block">
       <b>Versi</b> 3.2.0-rc
     </div>
-    Dashboard ini menggunakan tempalte AdminLTE
+    Seni Musik | (´。• ᵕ •。`)
   </footer>
 
   <!-- Control Sidebar -->

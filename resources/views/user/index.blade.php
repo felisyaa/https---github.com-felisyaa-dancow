@@ -69,7 +69,7 @@
                     </td>
                 </tr>    
                 <tr>
-                    <td><p style="font-size: 25px;">Nomer</p></td>    
+                    <td><p style="font-size: 25px;">Nomor Telepon</p></td>    
                     <td>
                         <div class="input-group mb-3">:&nbsp;
                             <input type="numeric" class="form-control" value="{{ auth()->user()->number }}" readonly>
@@ -108,8 +108,8 @@
                 <input type="password" id="passwordLama" name="passwordLama" class="form-control" placeholder="Password Lama">
               </div>
             <div class="form-label-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" class="form-control" placeholder="Password Lama">
+                <label for="password">Password Baru</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Password Baru">
               </div>
             <div class="form-label-group">
                 <label for="password_confirmation">Konfirmasi Password</label>
@@ -140,7 +140,7 @@
         </div>
         <div class="modal-body">
             <div class="form-label-group mb-1">
-                <label for="number">Nomer Baru</label>
+                <label for="number">Nomor Telepon Baru</label>
                 <input type="text" id="number" name="number" class="form-control" placeholder="Nomer baru">
             </div>
         </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title>{{ $title }}</title>
+        <title>{{ $title ?? '' }}</title>
         <!-- Font Awesome icons (free version)-->
         <script src="/fontawesome/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -22,31 +22,31 @@
             <div class="row">
                 <!-- Footer Location-->
                 <div class="col-lg-2 mb-5 mb-lg-0">
-                    <i class="fa fa-question float-start fa-7x text-danger"></i>
+                    <i class="fa fa-question float-start fa-5x text-danger"></i>
                 </div>
                 <div class="col-lg-2 mb-5 mb-lg-0">
-                    <p class="lead mb-0 fs-1">Tidak<br>Tahu?</p>
+                    <p class="lead mb-0 fs-2">Tidak<br>Tahu?</p>
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <h4 class="text-uppercase mb-4">Yuk belajar musik!</h4>
                     <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-tiktok"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="www.instagram.com/kziaferdinandus"><i class="fab fa-instagram"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-2">
-                    <p class="lead mb-0 fs-1">Menjadi<br>Tahu!</p>
+                    <p class="lead mb-0 fs-2">Menjadi<br>Tahu!</p>
                 </div>
                 <div class="col-lg-2">
-                    <i class="fa fa-exclamation fa-7x text-warning"></i>
+                    <i class="fa fa-exclamation fa-5x text-warning"></i>
                 </div>
             </div>
         </div>
     </footer>
     <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>QUIZ</small></div>
+        <div class="container">Seni Musik | (´。• ᵕ •。`)</div>
     </div>        
     <!-- Bootstrap core JS-->
     <script src="/bootstrap/js/bootstrap.min.js"></script>

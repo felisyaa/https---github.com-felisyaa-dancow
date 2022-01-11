@@ -36,10 +36,10 @@
           </li>
           @endcan
           <li class="nav-item">
-            <a href="/dashboard" class="nav-link {{ (request()->is('dashboard')) ? 'active' : '' }}">
+            <a href="/" class="nav-link {{ (request()->is('dashboard')) ? 'active' : '' }}">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Home
               </p>
             </a>
           </li>
@@ -69,14 +69,14 @@
             </a>
           </li>
           @endcan
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="/m3" class="nav-link {{ (request()->is('/m3')) ? 'active' : '' }}">
               <i class="nav-icon fas fa-trophy"></i>
               <p>
                 LeaderBoard
               </p>
             </a>
-          </li>
+          </li> --}}
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
