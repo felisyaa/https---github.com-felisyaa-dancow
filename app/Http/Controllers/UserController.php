@@ -80,16 +80,16 @@ class UserController extends Controller
             'password'=>'required'
         ]);
 
-        if (Auth::attempt($credentials)){
-            $user=Auth::user();
-            $token=md5(time()).'.'.md5($request->email);
-            $user->forceFill([
-                'api_token'=>$token
-            ])->save();
-            return response()->json([
-                'token'=>$token
-            ]);
-        }
+        // if (Auth::attempt($credentials)){
+        //     $user=Auth::user();
+        //     $token=md5(time()).'.'.md5($request->email);
+        //     $user->forceFill([
+        //         'api_token'=>$token
+        //     ])->save();
+        //     return response()->json([
+        //         'token'=>$token
+        //     ]);
+        // }
         return response()->json([
             'message'=>'The provided credentials do not match our records'
         ]);
